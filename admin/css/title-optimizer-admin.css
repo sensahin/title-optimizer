@@ -1,0 +1,53 @@
+/* Başlık ve Alt Başlıklar */
+h1, h2, h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #444;
+}
+
+h2 {
+    font-size: 24px;
+    color: #555;
+}
+
+h3 {
+    font-size: 20px;
+    color: #666;
+}
+
+/* Form Elemanları */
+input[type="text"], input[type="password"], select, textarea {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Yuvarlatılmış köşeler */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* İç gölge */
+    margin-bottom: 15px; /* Alt boşluk */
+}
+
+/* Düğmeler */
+button, input[type="submit"] {
+    background-color: #007BFF; /* Mavi renk */
+    color: white; /* Beyaz yazı rengi */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px; /* Yuvarlatılmış köşeler */
+    cursor: pointer; /* El imleci */
+    transition: background-color 0.3s; /* Geçiş efekti */
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #0056b3; /* Hover'da daha koyu mavi */
+}
+
+/* Örnek bir konteyner sınıfı */
+.container {
+    background-color: white; /* Beyaz arkaplan */
+    padding: 20px;
+    border-radius: 5px; /* Yuvarlatılmış köşeler */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Dış gölge */
+}
